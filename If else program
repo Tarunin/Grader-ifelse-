@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{int M=0;
+printf("Enter marks:");
+scanf("%d",M);
+
+if (M<=100 && M>=85) 
+{printf("Grade A");}
+else if (M<=84 && M>=70)
+{printf("Grade B");}
+else if (M<=69 && M>=55)
+{printf("Grade C");}
+else if (M<=54 && M>=40) 
+{printf("Grade D");}
+else if (M<=39)
+{printf("Grade F");}
+return 0;
+}
