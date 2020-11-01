@@ -3,7 +3,7 @@
 void main()
 {int M=0;
 printf("Enter marks:");
-scanf("%d",M);
+scanf("%d",&M);
 
 if (M<=100 && M>=85) 
 {printf("Grade A");}
